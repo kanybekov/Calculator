@@ -45,18 +45,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RPN\Calculation\Parser.cs" />
-    <Compile Include="RPN\ExpressionPack\ExpressionBuilder.cs" />
-    <Compile Include="RPN\ExpressionPack\ConstantExpression.cs" />
-    <Compile Include="RPN\ExpressionPack\ExpressionContainer.cs" />
-    <Compile Include="RPN\ExpressionPack\Operators\AdditionExpression.cs" />
-    <Compile Include="RPN\ExpressionPack\BinaryExpression.cs" />
-    <Compile Include="RPN\ExpressionPack\IExpression.cs" />
-    <Compile Include="RPN\ExpressionPack\Operators\DivisionExpression.cs" />
-    <Compile Include="RPN\ExpressionPack\Operators\MultiplyExpression.cs" />
-    <Compile Include="RPN\ExpressionPack\Operators\SubstractionExpression.cs" />
-    <Compile Include="RPN\ExpressionPack\UnaryExpression.cs" />
-    <Compile Include="RPN\Calculation\IParser.cs" />
+    <Compile Include="Calculation\Parser.cs" />
+    <Compile Include="ExpressionPack\ExpressionBuilder.cs" />
+    <Compile Include="ExpressionPack\ConstantExpression.cs" />
+    <Compile Include="ExpressionPack\ExpressionContainer.cs" />
+    <Compile Include="ExpressionPack\Operators\AdditionExpression.cs" />
+    <Compile Include="ExpressionPack\BinaryExpression.cs" />
+    <Compile Include="ExpressionPack\IExpression.cs" />
+    <Compile Include="ExpressionPack\Operators\DivisionExpression.cs" />
+    <Compile Include="ExpressionPack\Operators\MultiplyExpression.cs" />
+    <Compile Include="ExpressionPack\Operators\SubstractionExpression.cs" />
+    <Compile Include="ExpressionPack\UnaryExpression.cs" />
+    <Compile Include="Calculation\IParser.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

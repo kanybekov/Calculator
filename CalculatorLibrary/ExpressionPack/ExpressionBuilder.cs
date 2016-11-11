@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using CalculatorLibrary.RPN.Calculation;
-using CalculatorLibrary.RPN.ExpressionPack.Operators;
+using CalculatorLibrary.Calculation;
+using CalculatorLibrary.ExpressionPack.Operators;
 
-namespace CalculatorLibrary.RPN.ExpressionPack
+namespace CalculatorLibrary.ExpressionPack
 {
     public class ExpressionBuilder
     {

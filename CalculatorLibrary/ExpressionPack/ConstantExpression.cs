@@ -1,4 +1,4 @@
-﻿namespace CalculatorLibrary.RPN.ExpressionPack
+﻿namespace CalculatorLibrary.ExpressionPack
 {
     public class ConstantExpression : IExpression
     {

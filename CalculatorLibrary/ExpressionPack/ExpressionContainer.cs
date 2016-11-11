@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CalculatorLibrary.RPN.ExpressionPack
+namespace CalculatorLibrary.ExpressionPack
 {
     public class ExpressionContainer : IExpressionContainer
     {

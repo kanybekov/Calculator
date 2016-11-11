@@ -1,4 +1,4 @@
-﻿namespace CalculatorLibrary.RPN.ExpressionPack.Operators
+﻿namespace CalculatorLibrary.ExpressionPack.Operators
 {
     public class SubstractionExpression : BinaryExpression
     {

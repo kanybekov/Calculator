@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CalculatorLibrary.RPN.Calculation
+namespace CalculatorLibrary.Calculation
 {
     public class Parser : IParser
     {

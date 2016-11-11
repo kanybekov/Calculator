@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Reflection;
-using CalculatorLibrary.RPN;
-using CalculatorLibrary.RPN.Calculation;
-using CalculatorLibrary.RPN.ExpressionPack;
-using CalculatorLibrary.RPN.ExpressionPack.Operators;
+using CalculatorLibrary;
+using CalculatorLibrary.Calculation;
+using CalculatorLibrary.ExpressionPack;
+using CalculatorLibrary.ExpressionPack.Operators;
 using Ninject;
 
 namespace CalculatorProgram

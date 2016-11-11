@@ -1,5 +1,5 @@
-﻿using CalculatorLibrary.RPN.Calculation;
-using CalculatorLibrary.RPN.ExpressionPack;
+﻿using CalculatorLibrary.Calculation;
+using CalculatorLibrary.ExpressionPack;
 using Ninject.Modules;
 
 namespace CalculatorProgram
