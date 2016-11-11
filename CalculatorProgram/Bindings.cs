@@ -1,5 +1,6 @@
-﻿using Ninject.Modules;
-using CalculatorLibrary.Calculation;
+﻿using CalculatorLibrary.RPN.Calculation;
+using CalculatorLibrary.RPN.ExpressionPack;
+using Ninject.Modules;
 
 namespace CalculatorProgram
 {
@@ -7,8 +8,8 @@ namespace CalculatorProgram
     {
         public override void Load()
         {
-            Bind<IParser>().To<IParser>();
-            Bind<ICalculator>().To<MyCalculator>();
+            Bind<IExpressionContainer>().To<ExpressionContainer>();
+            Bind<IParser>().To<Parser>();
         }
     }
 }
