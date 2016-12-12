@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Bindings.cs" />
     <Compile Include="CalculationTests.cs" />
+    <Compile Include="CoolTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
