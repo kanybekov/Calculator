@@ -44,9 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calculation\ExpressionBuilder.cs" />
+    <Compile Include="Calculation\IExpressionBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Calculation\Parser.cs" />
-    <Compile Include="ExpressionPack\ExpressionBuilder.cs" />
     <Compile Include="ExpressionPack\ConstantExpression.cs" />
     <Compile Include="ExpressionPack\ExpressionContainer.cs" />
     <Compile Include="ExpressionPack\Operators\AdditionExpression.cs" />

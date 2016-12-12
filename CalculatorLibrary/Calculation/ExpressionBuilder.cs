@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using CalculatorLibrary.Calculation;
-using CalculatorLibrary.ExpressionPack.Operators;
+using CalculatorLibrary.ExpressionPack;
 
-namespace CalculatorLibrary.ExpressionPack
+namespace CalculatorLibrary.Calculation
 {
-    public class ExpressionBuilder
+    public class ExpressionBuilder : IExpressionBuilder
     {
         private readonly IParser _parser;
         private readonly IExpressionContainer _expressionContainer;
+
         public ExpressionBuilder(IParser parser, IExpressionContainer expressionContainer)
         {
             _parser = parser;

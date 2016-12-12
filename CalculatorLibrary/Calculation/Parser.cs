@@ -6,16 +6,13 @@ namespace CalculatorLibrary.Calculation
     {
         public IEnumerable<string> GeneratePostfixExpression(string input)
         {
-            //return input;
-
-
             var tokens = input.Split(' ');
 
             var s = new Stack<string>();
             var outputList = new List<string>();
-            int n;
             foreach (var c in tokens)
             {
+                int n;
                 if (int.TryParse(c, out n))
                 {
                     outputList.Add(c);
@@ -50,11 +47,7 @@ namespace CalculatorLibrary.Calculation
 
         static int Priority(string c)
         {
-            if (c == "^")
-            {
-                return 3;
-            }
-            else if (c == "*" || c == "/")
+            if (c == "*" || c == "/")
             {
                 return 2;
             }
@@ -69,7 +62,7 @@ namespace CalculatorLibrary.Calculation
         }
         static bool IsOperator(string c)
         {
-            if (c == "+" || c == "-" || c == "*" || c == "/" || c == "^")
+            if (c == "+" || c == "-" || c == "*" || c == "/")
             {
                 return true;
             }

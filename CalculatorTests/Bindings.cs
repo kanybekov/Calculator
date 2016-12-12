@@ -3,10 +3,7 @@ using CalculatorLibrary.ExpressionPack;
 using CalculatorLibrary.ExpressionPack.Operators;
 using Ninject.Modules;
 
-//TODO Куча OnActivation - это нормально?
-
-
-namespace CalculatorProgram
+namespace CalculatorTests
 {
     public class Bindings : NinjectModule
     {
@@ -15,7 +12,7 @@ namespace CalculatorProgram
             Bind<IExpressionContainer>().To<ExpressionContainer>()
                 .OnActivation(container =>
                     container.AddExpression("+", typeof(AdditionExpression)))
-                .OnActivation(container => 
+                .OnActivation(container =>
                     container.AddExpression("-", typeof(SubstractionExpression)))
                 .OnActivation(container =>
                     container.AddExpression("*", typeof(MultiplyExpression)))
